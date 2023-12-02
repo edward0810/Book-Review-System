@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    text-align: center;
+}
+
+main{
+    display: flex;
+}
+
+.navber{
+    width:18%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.navber .coulmn_one{
+    border-bottom: 1px solid #a4a4a4;
+    padding-bottom: 2vw;
+    margin-bottom: 2vw;
+}
+.navber p{
+    margin: 0;
+}
+
+.row_content{
+    width:82%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.row_content .storng{
+    font-weight: bold;
+}
+.row_content .list {
+    padding: 1rem;
+}
+.row_content .list li{
+    margin-bottom:10px;
+}
+.row_content .genre_book_list{
+    padding: 1rem 2vw;
+    border-bottom: 1px solid #acb0b0;
+}
+.row_content .genre_book_list .item{
+    margin-bottom: 2vw;
+}
+.row_content .genre_book_list .item p{
+    text-indent: 2vw;
+}
+.option_box{
+    margin-top: 1vw;
+}
+
+.row_content .book_item{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.revier_item{
+    padding: 1vw 3vw;
+}
+.revier_item .revier_header {
+    display: flex;
+}
+.revier_item .revier_header p{
+    width: 50%;
+    margin-bottom: 4px;
+}
+.revier_item .revier_header p:nth-child(2){
+    text-align: right;
+}
+.revier_item .revier_content{
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 1vw;
+}
+.revier_input_box{
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 2vw;
+}
